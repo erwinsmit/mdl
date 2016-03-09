@@ -67,6 +67,13 @@ body .demo-blog {
       -ms-flex-align: stretch;
           align-items: stretch;
   min-height: 360px;
+
+}
+.demo-blog .mdl-card:nth-child(odd) {
+  box-shadow: 0 0 20px 10px rgba(255,255,0,.5);
+}
+.demo-blog .mdl-card:nth-child(even) {
+  box-shadow: 0 0 20px 10px rgba(0,0,0,.5);
 }
 .demo-blog .mdl-card__title {
   padding: 16px;
